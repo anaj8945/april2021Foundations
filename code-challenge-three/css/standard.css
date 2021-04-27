@@ -1,0 +1,10 @@
+* {
+    background-image: url("kitten.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#kitten {
+    font-size: 3rem;
+}
