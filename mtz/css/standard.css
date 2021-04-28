@@ -1,0 +1,59 @@
+html {
+    background-color: rgb(224, 143, 36);
+    font-family: "Playfair Display";
+    font-size:x-large
+}
+
+nav {
+    background-color: white;
+	display: flex;
+	justify-content: space-around;
+	font-size: larger;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+a {
+	color:  rgb(224, 143, 36);
+}
+
+.gradiant {
+    background-image: url("../assets/daisy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 4rem;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    border-top: thin;
+    border-bottom: thin;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
