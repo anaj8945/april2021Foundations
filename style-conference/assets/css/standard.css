@@ -10,6 +10,7 @@ Grid
     box-sizing:border-box;
 }
 
+
 .group::before,
 .group::after {
     content: "";
@@ -40,6 +41,57 @@ h1, h3, h4, h5, p {
     margin-bottom: 22px;
 }
 
+h1, h2, h3, h4 {
+    color: #6c89db;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 21px
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    color: #4568c9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight: 400;
+}
+
+cite,
+em {
+    font-style: italic;
+}
+
+a {
+    color: #6c89db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a9b2b9;
+}
+
+p a {
+    border-bottom: 1px soild #dfe2e5;
+}
+
 /*
 =============
 Buttons
@@ -58,7 +110,30 @@ Buttons
 }
 
 .hero {
+    line-height: 44px;
     padding: 22px 80px 66px 80px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 body {
@@ -110,4 +185,18 @@ Primary Foter
 .col-2-3 {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.teaser a:hover h3 {
+    color: #a9b2b9;
+}
+
+/* 
+==============
+Navigation
+==============
+*/
+
+.nav {
+    text-align: right;
 }
