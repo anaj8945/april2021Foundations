@@ -1,6 +1,6 @@
 html{
 	font-family: "Open Sans", sans-serif;
-	font-size: x-large;
+	font-size: 16pt;
 }
 
 body {
@@ -18,6 +18,7 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 5;
 }
 
 
@@ -29,7 +30,7 @@ a {
 
 #home {
     background-image: url("../images/background.jpg");
-}
+}	
 
 .logo {
 	width: 9ch;
@@ -59,7 +60,6 @@ a {
 	margin-top: .3rem;
 	margin-right: 1em;
 	margin-bottom: 2em;
-	float: left;
 }
 
 article {
@@ -69,14 +69,15 @@ article {
 	box-sizing: border-box;
 	background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
 	text-align: center;
+	position: relative;
 }
 
-.photobox > :lastchild {
+.photobox > :last-child {
 	text-align: left;
 }
 
