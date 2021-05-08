@@ -57,3 +57,42 @@ p {
     text-align: center;
     color: white;
 }
+
+/*
+Education
+*/
+
+.school {
+    display: flex;
+    margin-top: 1px;
+}
+
+.school img {
+	width: 30ch;
+}
+
+.school figcaption {
+    font-size: small;
+    color: white;
+}
+
+article {
+    padding-left: 50px;
+	padding-right: 50px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+	text-align: center;
+	position: relative;
+}
+
+.school > :last-child {
+	text-align: left;
+}
+
+#education h2 {
+    padding-bottom: 0;
+    margin-bottom: 0%;
+
+}
