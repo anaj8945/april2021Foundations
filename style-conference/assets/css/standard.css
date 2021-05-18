@@ -77,7 +77,7 @@ Rows
 
 .row {
     background: #fff;
-    min-width: 960px;
+    min-width: 960px; /* remove this line */
     padding: 66px 0 44px 0;
 }
 
@@ -87,8 +87,9 @@ Rows
 }
 
 .row-alt {
-    background: #cbe2c1;
+    background: #cbe2c1; /* change to #c1d0e2 */
     background: -webkit-linear-gradient(to right, #8ea4cf,#b3d7e5);
+    /* add background -moz-linear-gradient and linear gradient, each on new lines, with same values as for -webkit-linear-gradient */
     padding: 44px 0 22px 0;
 }
 
@@ -176,18 +177,18 @@ p a {
 }
 
 .primary-footer a{
-    color: #ffff;
+    color: #ffff; /* delete one f */
 }
 .primary-footer a:hover {
-    color: #ffff;
+    color: #ffff; /* color should be #acb8d8 f */
 }
 
 .primary-header a{
-    color: #ffff;
+    color: #ffff; /* delete one f */
 }
 
 .primary-header a:hover {
-    color:#a9b2b9;
+    color:#a9b2b9; /* color should be #acb8d8 */
 }
 
 /*
@@ -200,7 +201,7 @@ Buttons
     border-radius: 5px;
     display: inline-block;
     margin: 0px;
-    color: #ffff;
+    color: #ffff; /* delete one f */
     cursor: pointer;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -213,8 +214,8 @@ Buttons
 }
 
 .btn-alt:hover {
-    background:#ffff;
-    color:  #648880;
+    background:#ffff; /* delete one f */
+    color:  #648880; /* should be #668cc9 */
 }
 
 /*
@@ -318,7 +319,7 @@ Speakers
     border: 1px solid #dfe2e5;
     border-radius: 5px;
     margin-top: 88px;
-    padding: 22px 0;
+    padding: 22px 0; /* change to padding-bottom: 22px */
     text-align: center;
 }
 
