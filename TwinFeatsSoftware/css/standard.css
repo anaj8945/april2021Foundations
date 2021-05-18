@@ -1,6 +1,6 @@
 html{
 	font-family: "Open Sans", sans-serif;
-	font-size: 16pt;
+	font-size: x-large;
 }
 
 body {
@@ -59,7 +59,8 @@ Home
 }
 
 .logo {
-	width: 9ch;
+	width: 40vw;
+    height: auto;
 }
 
 .title, .logo {
@@ -330,12 +331,14 @@ Contact
 }
 
 #contact > div {
-	display: flex;
-	flex-direction: column;
-	width: calc(2em +12 ch);
-	margin-left:auto;
-	margin-right: auto;
-	text-align:left;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: calc(10vh + 3.5rem);
+    transform: translateX(-50%);
+    text-align: left;
+
 }
 
 #contact a {
@@ -394,4 +397,27 @@ article:target + img {
 
 article:target ~ #home {
     left: -100vw;
+}
+
+/*
+=====
+mobile
+=====
+*/
+
+#mobile-nav, #mobile-trigger {
+    display: none;
+}
+
+#mobile-nav, #mobile-trigger, #bonus {
+    display: none;
+}
+
+#bonus {
+    display: block;
+    margin-top: 3em;
+}
+
+#mobile-nav, #mobile-trigger, #bonus, .bonus-img {
+    display: none;
 }
