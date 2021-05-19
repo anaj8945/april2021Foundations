@@ -76,9 +76,7 @@ Rows
 */
 
 .row {
-    background: #fff;
-    min-width: 960px; /* remove this line */
-    padding: 66px 0 44px 0;
+    background: #fff;    padding: 66px 0 44px 0;
 }
 
 .row,
@@ -87,9 +85,10 @@ Rows
 }
 
 .row-alt {
-    background: #cbe2c1; /* change to #c1d0e2 */
+    background: #c1d0e2;
     background: -webkit-linear-gradient(to right, #8ea4cf,#b3d7e5);
-    /* add background -moz-linear-gradient and linear gradient, each on new lines, with same values as for -webkit-linear-gradient */
+    background: -moz-linear-gradient(to right, #8ea4cf,#b3d7e5);
+    background: linear-gradient(to right, #8ea4cf,#b3d7e5);
     padding: 44px 0 22px 0;
 }
 
@@ -177,18 +176,18 @@ p a {
 }
 
 .primary-footer a{
-    color: #ffff; /* delete one f */
+    color: #fff; 
 }
 .primary-footer a:hover {
-    color: #ffff; /* color should be #acb8d8 f */
+    color: #acb8d8; 
 }
 
 .primary-header a{
-    color: #ffff; /* delete one f */
+    color: #fff; 
 }
 
 .primary-header a:hover {
-    color:#a9b2b9; /* color should be #acb8d8 */
+    color:#acb8d8; 
 }
 
 /*
@@ -201,7 +200,7 @@ Buttons
     border-radius: 5px;
     display: inline-block;
     margin: 0px;
-    color: #ffff; /* delete one f */
+    color: #fff; 
     cursor: pointer;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -214,8 +213,8 @@ Buttons
 }
 
 .btn-alt:hover {
-    background:#ffff; /* delete one f */
-    color:  #648880; /* should be #668cc9 */
+    background:#fff; 
+    color:  #668cc9; 
 }
 
 /*
@@ -308,6 +307,12 @@ Home
     color: #a9b2b9;
 }
 
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
 
 /*
 ========
@@ -319,12 +324,19 @@ Speakers
     border: 1px solid #dfe2e5;
     border-radius: 5px;
     margin-top: 88px;
-    padding: 22px 0; /* change to padding-bottom: 22px */
+    padding-bottom: 22px; 
     text-align: center;
 }
 
 .speaker {
     margin-bottom: 44px;
+}
+
+.speaker-info img {
+    border-radius:50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align:top;
 }
 
 /*
