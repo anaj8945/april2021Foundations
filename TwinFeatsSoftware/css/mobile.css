@@ -146,6 +146,10 @@ about
     width: 100%;
 }
 
+.logo {
+    height:auto;
+    width: 40vw;
+}
 /*
 ====
 contact
@@ -154,4 +158,12 @@ contact
 
 #contact > div {
     top: calc(4vh + 3.5em);
+}
+
+#apps > .sidebar {
+    display: none;
+}
+
+#apps{
+    display: block;
 }
