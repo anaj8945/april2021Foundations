@@ -59,8 +59,7 @@ Home
 }
 
 .logo {
-	width: 40vw;
-    height: auto;
+    height: 40vh;
 }
 
 .title, .logo {
@@ -108,7 +107,6 @@ figcaption {
 }
 
 .stage {
-    perspective: 1600px;
     perspective-origin: 50% 0;
     width: 22ch;
     margin-right: 1.5em;
@@ -405,9 +403,6 @@ mobile
 =====
 */
 
-#mobile-nav, #mobile-trigger {
-    display: none;
-}
 
 #mobile-nav, #mobile-trigger, #bonus {
     display: none;

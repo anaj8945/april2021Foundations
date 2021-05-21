@@ -21,6 +21,7 @@ html {
 #mobile-nav > img {
     /* Size the image based on the size of the #mobile-nav */
     width: 100%;
+    height:100%;
 }
 
 /* Show the actual <nav> tag when the #mobile-nav is clicked */
@@ -36,7 +37,7 @@ nav {
     /* place the nav just under the hamburger menu */
     top: calc(5vh + .5em);
     /* hide the <nav> by not letting it have any width size due to max-width */
-    max-width: 0;
+    width: 0;
     /* don't let content extend outside of tag */
     overflow: hidden;
     /* transition into view when shown/hidden */
@@ -108,6 +109,7 @@ about
 .photobox img {
     height: 60vw;
     left: 50%;
+    width: 60vw;
 }
 
 .stage .front {
